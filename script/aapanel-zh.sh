@@ -97,7 +97,7 @@ chattr +i -R /www/server/panel/logs/request
 
 function sinicization-gacjie(){
 # 汉化 来自 https://gitee.com/gacjie/aapanel_chinese 
-wget -O /root/chinese.zip https://ghproxy.com/https://github.com/AaronYES/aaPanel/releases/download/1.2/aapanel_chinese-6.8.21.zip
+wget -O /root/chinese.zip https://ghproxy.com/https://github.com/yspcn/aaPanel/releases/download/1.2/aapanel_chinese-6.8.30.zip
 unzip -o /root/chinese.zip -d /www/server/
 rm /root/chinese.zip -rf
 /etc/init.d/bt restart
@@ -116,7 +116,7 @@ function start_menu(){
     green " 3. 降级 6.8.23 版本 aaPanel"
     green " 4. 降级 7.7.0  版本 宝塔面板"
     green " 5. 开心破解"
-    green " 6. 汉化 aaPanel (文件来自Gitee)"
+    green " 6. 汉化 aaPanel (文件来自GitHub yspcn)"
     green " 7. 删除日志文件，锁定文件写入权限"
     yellow " ————————————————————————————————————————————————"
     green " 8. 卸载面板"
