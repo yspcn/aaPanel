@@ -19,7 +19,7 @@ This tool is available for CentOS/Debian/Ubuntu clients for some of your own nee
 ## Usage
 
 ~~~
-wget https://raw.githubusercontent.com/ysncn/aaPanel/main/script/aapanel.sh  -O aapanel.sh && chmod +x aapanel.sh && clear && ./aapanel.sh
+wget https://raw.githubusercontent.com/yspcn/aaPanel/main/script/aapanel.sh  -O aapanel.sh && chmod +x aapanel.sh && clear && ./aapanel.sh
 ~~~
 
 
