@@ -98,7 +98,9 @@ chattr +i -R /www/server/panel/logs/request
 function sinicization-gacjie(){
 # 汉化 来自 https://gitee.com/gacjie/aapanel_chinese 
 wget -O /root/chinese.zip https://ghproxy.com/https://github.com/yspcn/aaPanel/releases/download/1.2/aapanel_chinese-6.8.30.zip
+chattr -i -a /www/server/panel/data/plugin.json
 unzip -o /root/chinese.zip -d /www/server/
+chattr +i -R /www/server/panel/data/plugin.json
 rm /root/chinese.zip -rf
 /etc/init.d/bt restart
 red "汉化aaPanel成功."
